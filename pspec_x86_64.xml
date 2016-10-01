@@ -1,0 +1,101 @@
+<PISI>
+    <Source>
+        <Name>ccnet</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <PartOf>programming</PartOf>
+        <Summary xml:lang="en">Ccnet is a framework for writing networked applications in C.</Summary>
+        <Description xml:lang="en">Ccnet is a framework for writing networked applications in C.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>ccnet</Name>
+        <Summary xml:lang="en">Ccnet is a framework for writing networked applications in C.</Summary>
+        <Description xml:lang="en">Ccnet is a framework for writing networked applications in C.
+</Description>
+        <PartOf>programming</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/__init__.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/async/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/async/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/async/__init__.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/async/async_client.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/async/async_client.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/async/async_client.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/async/mqclientproc.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/async/mqclientproc.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/async/mqclientproc.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/async/processor.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/async/processor.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/async/processor.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/async/rpcserverproc.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/async/rpcserverproc.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/async/rpcserverproc.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/async/sendcmdproc.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/async/sendcmdproc.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/async/sendcmdproc.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/async/timer.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/async/timer.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/async/timer.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/client.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/client.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/client.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/errors.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/errors.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/errors.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/message.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/message.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/message.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/packet.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/packet.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/packet.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/pool.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/pool.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/pool.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/rpc.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/rpc.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/rpc.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/status_code.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/status_code.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/status_code.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/sync_client.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/sync_client.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/sync_client.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/utils.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/utils.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ccnet/utils.pyo</Path>
+            <Path fileType="library">/usr/lib64/lib*.so.*</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>ccnet-devel</Name>
+        <Summary xml:lang="en">Development files for ccnet</Summary>
+        <Description xml:lang="en">Ccnet is a framework for writing networked applications in C.
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="1">ccnet</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="header">/usr/include/</Path>
+            <Path fileType="library">/usr/lib64/lib*.so</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/*.pc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-10-01</Date>
+            <Version>6.0.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>

@@ -1,0 +1,10 @@
+libc.so.6
+libcrypto.so.1.0.0
+libevent-2.0.so.5
+libglib-2.0.so.0
+libgobject-2.0.so.0
+libjansson.so.4
+libpthread.so.0
+libsearpc.so.1
+libsqlite3.so.0
+libuuid.so.1

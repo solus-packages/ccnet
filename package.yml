@@ -1,0 +1,27 @@
+name       : ccnet
+version    : 6.0.0
+release    : 1
+source     :
+    - https://github.com/haiwen/ccnet/archive/v6.0.0-server.tar.gz : bb7be1c4a6c0a6d4cc9456089c6d16bbeba72541a4a9b59ead8a4075f067fc93
+license    : GPL-2.0
+component  : programming
+summary    : Ccnet is a framework for writing networked applications in C.
+description: |
+    Ccnet is a framework for writing networked applications in C.
+builddeps  :
+    - pkgconfig(libevent)
+    - pkgconfig(libsearpc)
+    - pkgconfig(openssl)
+    - pkgconfig(sqlite3)
+    - openldap-devel
+    - vala
+setup      : |
+    %autogen \
+        --disable-server \
+        --disable-server-pkg \
+        --disable-static \
+        --enable-static-build
+build      : |
+    %make
+install    : |
+    %make_install
