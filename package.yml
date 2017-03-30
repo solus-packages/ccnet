@@ -1,8 +1,8 @@
 name       : ccnet
-version    : 6.0.0
-release    : 1
+version    : 6.0.4
+release    : 2
 source     :
-    - https://github.com/haiwen/ccnet/archive/v6.0.0-server.tar.gz : bb7be1c4a6c0a6d4cc9456089c6d16bbeba72541a4a9b59ead8a4075f067fc93
+    - https://github.com/haiwen/ccnet/archive/v6.0.4.tar.gz : 2156787fc9ae1e4293493f0ce398aa8b97d84b9f0201d2fd6986b736bd249b04
 license    : GPL-2.0
 component  : programming
 summary    : Ccnet is a framework for writing networked applications in C.
