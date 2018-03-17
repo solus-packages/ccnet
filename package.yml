@@ -1,6 +1,6 @@
 name       : ccnet
 version    : 6.1.5
-release    : 6
+release    : 8
 source     :
     - https://github.com/haiwen/ccnet/archive/v6.1.5.tar.gz : 763296486f8cc51b439355e87dac8cb71975689024bddb359b0456aa8dbd518f
 license    : GPL-2.0
