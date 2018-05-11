@@ -2,10 +2,10 @@
     <Source>
         <Name>ccnet</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Philipp Trulson</Name>
+            <Email>philipp@trulson.de</Email>
         </Packager>
-        <License>GPL-2.0</License>
+        <License>GPL-2.0-only</License>
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">Ccnet is a framework for writing networked applications in C.</Summary>
         <Description xml:lang="en">Ccnet is a framework for writing networked applications in C.
@@ -81,7 +81,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="8">ccnet</Dependency>
+            <Dependency release="9">ccnet</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/</Path>
@@ -90,12 +90,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="8">
-            <Date>2018-03-17</Date>
-            <Version>6.1.5</Version>
+        <Update release="9">
+            <Date>2018-05-11</Date>
+            <Version>6.1.8</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Philipp Trulson</Name>
+            <Email>philipp@trulson.de</Email>
         </Update>
     </History>
 </PISI>
